@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'solidus'
-gem 'solidus_auth_devise'
-gem "solidus_gateway"
+gem "solidus", github: "solidusio/solidus", branch: "master"
+gem 'solidus_auth_devise', github: "solidusio/solidus_auth_devise", branch: "master"
+gem "solidus_gateway", github: "solidusio/solidus_gateway", branch: "master"
 
 group :test do
   gem 'coffee-rails'
